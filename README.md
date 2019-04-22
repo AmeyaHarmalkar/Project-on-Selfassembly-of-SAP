@@ -1,4 +1,4 @@
-# Project-on-Selfassembly-of-SAP
+# Project on Selfassembly of SAP
 
 # Step 1 : 
 Creation of individual domain files using PyMol and characterizing the domains and the linkers for each of those files.
@@ -23,5 +23,6 @@ Selection of the domain that we want to initiate our algorithm with. Determine a
                 -parser:protocol ~/Rosetta/demos/protocol_capture/replica_docking/rosetta_inputs/randomize_infile.xml \
                 -in:file:s protAB.pdb \
                 -database ~/Rosetta/main/database
-                ```
+            
+
  
