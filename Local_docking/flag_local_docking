@@ -1,0 +1,16 @@
+-in:file:s d234.pdb
+-low_res_protocol_only
+
+-score:weights ref2015_cst
+-nstruct 250
+-constraints:cst_file loop1.cst
+
+-partners A_B
+-dock_pert 4 10
+
+-ex1
+-ex2aro
+
+-out:pdb_gz
+-out:path:all output_files
+-out:suffix _local_dock

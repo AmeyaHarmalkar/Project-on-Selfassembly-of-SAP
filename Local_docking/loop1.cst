@@ -1,0 +1,3 @@
+#Constraints across the domains of the SAP protein
+
+AtomPair CA 392A CA 385B FLAT_HARMONIC 20 2 0.2
