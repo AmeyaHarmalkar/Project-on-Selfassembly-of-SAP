@@ -1,0 +1,14 @@
+-s complex.pdb
+-ex1
+-ex2
+-use_input_sc
+-packing:repack_only
+-run:min_type dfpmin_armijo_nonmonotone
+-FloppyTail:shear_on 0.25
+-in:file:movemap floppy_movemap
+-FloppyTail:publication false
+-FloppyTail:refine_repack_cycles 10
+-FloppyTail:perturb_cycles 5000
+-FloppyTail:refine_cycles 100
+-nstruct 500
+-out:path:all floppy_output

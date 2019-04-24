@@ -1,0 +1,19 @@
+#!/bin/bash
+
+Universe = vanilla
+GetEnv = True
+
+Nice_User = False
+
+# job description
+#ROSETTABIN = /home/aharmal1/Rosetta/main/source/bin
+#ROSETTAEXE = rosetta_scripts
+#COMPILER = mpi.linuxgccrelease
+Executable = /home/aharmal1/Rosetta/main/source/bin/FloppyTail.linuxgccrelease
+
+Arguments = @options
+
+Log    = output/analysis.log
+Output = output/analysis.out
+Error  = output/analysis.err
+Queue 1
